@@ -65,5 +65,5 @@ If ($ResponseString -Eq "OK") {
 	Write-Verbose "Update successful."
 }
 ElseIf ($ResponseString -Eq "KO") {
-	Write-Error "Update failed."
+	Throw "Update failed."
 }
