@@ -10,9 +10,9 @@ Updates the IP address of your Duck DNS domain(s). Intended to be run as a sched
 
 `.\Update-DuckDNS.ps1 -Domains "foo,bar" -Token my-duck-dns-token`
 
-## Scheduled Task Instructions:
+## Task Scheduler Instructions:
 1. Open Task Scheduler:
-  - Win+R (run): taskschd.msc
+   1. Win+R (run): taskschd.msc
 2. Right-click "Task Scheduler Library" and click "Add Basic Task"
    1. Name it and set a schedule of "daily"
    2. Action: Start a program
